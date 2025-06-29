@@ -16,7 +16,7 @@ app.set("port", process.env.PORT || 8000);
 // Fix: Allow frontend origin to prevent CORS issues
 app.use(
     cors({
-        origin: "http://localhost:5173",  // Allow your frontend
+        origin: "http://localhost:5173", 
         credentials: true,
     })
 );
